@@ -3,24 +3,24 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@unocss/nuxt',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
   ],
   googleFonts: {
     base64: false,
     download: true,
     families: {
-      Roboto: true,
-      Kalam: true,
-      "Dancing Script": true,
-      Lobster: true,
-      Lato: {
-        wght: [100, 300, 400, 700], 
-        ital: [100, 300, 400, 700] 
+      'Roboto': true,
+      'Kalam': true,
+      'Dancing Script': true,
+      'Lobster': true,
+      'Lato': {
+        wght: [100, 300, 400, 700],
+        ital: [100, 300, 400, 700],
       },
-      "Fira Code": true,
-      "Fira Mono":  {
-        wght: [400, 700]
+      'Fira Code': true,
+      'Fira Mono': {
+        wght: [400, 700],
       },
-    }
-  }
+    },
+  },
 })
