@@ -2,6 +2,11 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+```bash
+# Bootstrap this project and use it as a template base
+npx nuxi init --template https://github.com/piscis/nuxt3-starter-tmpl
+```
+
 ## Setup
 
 Make sure to install the dependencies:
