@@ -20,6 +20,9 @@ devDependencies:
   '@nuxtjs/google-fonts':
     specifier: ^3.0.1
     version: 3.0.1
+  '@pinia-plugin-persistedstate/nuxt':
+    specifier: ^1.1.1
+    version: 1.1.1(@pinia/nuxt@0.4.11)(pinia@2.1.4)
   '@pinia/nuxt':
     specifier: ^0.4.11
     version: 0.4.11(typescript@5.1.5)(vue@3.3.4)
@@ -56,6 +59,9 @@ devDependencies:
   nuxt:
     specifier: ^3.6.1
     version: 3.6.1(@types/node@18.0.0)(eslint@8.42.0)(typescript@5.1.5)
+  pinia:
+    specifier: ^2.1.4
+    version: 2.1.4(typescript@5.1.5)(vue@3.3.4)
   playwright:
     specifier: ^1.35.0
     version: 1.35.0
@@ -1479,6 +1485,21 @@ packages:
       google-fonts-helper: 3.3.0
       pathe: 1.1.1
     transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@pinia-plugin-persistedstate/nuxt@1.1.1(@pinia/nuxt@0.4.11)(pinia@2.1.4):
+    resolution: {integrity: sha512-b6ZNP3Re8COmfZEpj4KQmbp2TuDKrLggDFLZa8FiJF68xE/oCsPXIuXUvAt8E4ht/5sq4Z/grlA+iGXaI2aeKQ==}
+    peerDependencies:
+      '@pinia/nuxt': ^0.4.4
+    dependencies:
+      '@nuxt/kit': 3.6.1
+      '@pinia/nuxt': 0.4.11(typescript@5.1.5)(vue@3.3.4)
+      defu: 6.1.2
+      pinia-plugin-persistedstate: 3.1.0(pinia@2.1.4)
+    transitivePeerDependencies:
+      - pinia
       - rollup
       - supports-color
     dev: true
@@ -6982,6 +7003,14 @@ packages:
   /pify@3.0.0:
     resolution: {integrity: sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==}
     engines: {node: '>=4'}
+    dev: true
+
+  /pinia-plugin-persistedstate@3.1.0(pinia@2.1.4):
+    resolution: {integrity: sha512-8UN+vYMEPBdgNLwceY08mi5olI0wkYaEb8b6hD6xW7SnBRuPydWHlEhZvUWgNb/ibuf4PvufpvtS+dmhYjJQOw==}
+    peerDependencies:
+      pinia: ^2.0.0
+    dependencies:
+      pinia: 2.1.4(typescript@5.1.5)(vue@3.3.4)
     dev: true
 
   /pinia@2.1.4(typescript@5.1.5)(vue@3.3.4):
