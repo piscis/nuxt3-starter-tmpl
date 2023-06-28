@@ -10,7 +10,10 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ```bash
 # Bootstrap this template and use is for your starter project
-npx nuxi init --template github:piscis/nuxt3-starter-tmpl
+npx nuxi init --template gh:piscis/nuxt3-starter-tmpl your-app
+
+# with pnpm 
+pnpm dlx nuxi init --template gh:piscis/nuxt3-starter-tmpl your-app
 ```
 
 ## Setup
