@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
     '@unocss/nuxt',
     '@nuxtjs/google-fonts',
   ],
