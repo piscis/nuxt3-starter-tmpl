@@ -1,7 +1,13 @@
 {
   "name": "nuxt-app",
+  "type": "module",
   "private": true,
   "packageManager": "pnpm@8.6.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/piscis/nuxt3-starter-tmpl"
+  },
+  "main": "./nuxt.config.ts",
   "engines": {
     "node": "18.x",
     "pnpm": "8.x"
