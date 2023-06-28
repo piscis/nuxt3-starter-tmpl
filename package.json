@@ -8,6 +8,21 @@
     "url": "git://github.com/piscis/nuxt3-starter-tmpl"
   },
   "main": "./nuxt.config.ts",
+  "files": [
+    "assets",
+    "components",
+    "composables",
+    "layouts",
+    "modules",
+    "pages",
+    "public",
+    "stores",
+    "app.config.ts",
+    "app.vue",
+    "nuxt.config.ts",
+    "uno.config.ts",
+    "tsconfig.json"
+  ],
   "engines": {
     "node": "18.x",
     "pnpm": "8.x"
