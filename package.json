@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@8.6.7",
+  "packageManager": "pnpm@8.6.11",
   "repository": {
     "type": "git",
     "url": "git://github.com/piscis/nuxt3-starter-tmpl"
@@ -43,28 +43,28 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.53",
-    "@nuxtjs/google-fonts": "^3.0.1",
+    "@nuxtjs/google-fonts": "^3.0.2",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@pinia/nuxt": "^0.4.11",
-    "@unocss/nuxt": "^0.53.5",
-    "@unocss/preset-icons": "^0.53.5",
-    "@unocss/preset-rem-to-px": "^0.53.5",
-    "@unocss/preset-web-fonts": "^0.53.5",
-    "@unocss/preset-wind": "^0.53.5",
-    "@unocss/transformer-compile-class": "^0.53.5",
-    "@vueuse/core": "^10.2.1",
-    "@vueuse/nuxt": "^10.2.1",
-    "pinia": "^2.1.4"
+    "@unocss/nuxt": "^0.54.0",
+    "@unocss/preset-icons": "^0.54.0",
+    "@unocss/preset-rem-to-px": "^0.54.0",
+    "@unocss/preset-web-fonts": "^0.54.0",
+    "@unocss/preset-wind": "^0.54.0",
+    "@unocss/transformer-compile-class": "^0.54.0",
+    "@vueuse/core": "^10.3.0",
+    "@vueuse/nuxt": "^10.3.0",
+    "pinia": "^2.1.6"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.8",
     "@nuxt/devtools": "latest",
     "@nuxt/test-utils": "^3.6.3",
     "@release-it/conventional-changelog": "^5.1.1",
-    "@types/node": "^20.4.2",
-    "eslint": "^8.45.0",
+    "@types/node": "^20.4.5",
+    "eslint": "^8.46.0",
     "nuxt": "^3.6.3",
-    "playwright": "^1.36.1",
+    "playwright": "^1.36.2",
     "release-it": "^15.11.0",
     "vitest": "^0.33.0"
   }
