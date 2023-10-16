@@ -45,7 +45,7 @@
     "@iconify-json/mdi": "^1.1.54",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
-    "@pinia/nuxt": "^0.5.0",
+    "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.56.5",
     "@unocss/preset-icons": "^0.56.5",
     "@unocss/preset-rem-to-px": "^0.56.5",
