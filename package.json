@@ -25,7 +25,7 @@
     "tsconfig.json"
   ],
   "engines": {
-    "node": "18.x",
+    "node": "20.x",
     "pnpm": "8.x"
   },
   "scripts": {
